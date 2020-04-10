@@ -80,6 +80,7 @@ a {
 }
 
 #transparent-layer {
+  visibility: hidden;
   position: absolute;
   clip-path: circle(5%);
   background-color: yellow;
