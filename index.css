@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  background-color: #0d0140;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  user-select: none;
+}
+
+h1 {
+  font-size: 50px;
+  /* display: flex; */
+  align-self: center;
+  font-family: "Open Sans";
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  /* display: flex; */
+  align-self: center;
+  font-family: "Open Sans";
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  /* display: flex; */
+  align-self: center;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #398cca;
+}
+
+#clipped {
+  position: absolute;
+  /* clip-path: circle(5%); */
+  display: flex;
+  background-color: white;
+
+  height: 100%;
+  width: 100%;
+}
+
+#initial-text {
+  color: white;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#inner {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25vh;
+  align-content: center;
+  width: 100%;
+}
+
+#transparent-layer {
+  position: absolute;
+  clip-path: circle(5%);
+  background-color: yellow;
+  opacity: 50%;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
